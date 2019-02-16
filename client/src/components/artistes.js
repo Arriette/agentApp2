@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
-
+import './App.css';
 
 class Artistes extends Component {
   constructor() {
     super();
     this.state = {
-      artistes: []
+      nom: '',
+      prenom: '', 
+      blaze: '',
+      phone: '',
+      mail:'',
+      fanzine: [],
+      dateCrea: '',
+      argent: ''
     };
   }
 
@@ -16,16 +23,17 @@ class Artistes extends Component {
   }
 
   render() {
+    const blaze = this.state.blaze
     return (
-      <div>
-        <h2>Artistes</h2>
-        <ul>
-        {this.state.artistes.map(artiste => 
-          <li key={artiste.id}>{artiste.firstName} {artiste.lastName}</li>
-        )}
-        </ul>
+      <div  className="Artiste" id={blaze}>
+        <h3>{this.state.blaze}</h3>
+        <p>{this.state.blaze}, de son vrai nom {this.state.nom} {this.state.prenom}.</p>
+        <p>Dépositaire de fanzine depuis {this.state.dateCrea}, il a à son actif : {this.state.fanzine}</p>
+        <p>Actuellement nous lui devons {this.state.argent}</p>
+        <p>Il est joignble sur {this.state.phone} ou {this.state.mail}</p>
+
       </div>
-    );
+      )
   }
 }
 

@@ -41,3 +41,13 @@ Brad Traversy
 ### License
 
 This project is licensed under the MIT License
+
+### Link to read
+
+https://martinfowler.com/articles/injection.html
+http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56cb
+http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html
+https://msdn.microsoft.com/fr-fr/magazine/ee310108.aspx
+http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop/
+https://github.com/nodejs/node-v0.x-archive/wiki
+https://www.nodecloud.org/
